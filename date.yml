@@ -1,0 +1,39 @@
+adddatas:
+  - [3,3,6]
+  - [-1,-2,-3]
+  - [1000,1500,2500]
+
+addmyids:
+  - "int"
+  - "minus"
+  - "bigint"
+
+subdatas:
+  - [5,2,3]
+  - [-5,-2,-3]
+  - [996,96,900]
+
+submyids:
+  - "subint"
+  - "subminus"
+  - "subbigint"
+
+muldatas:
+  - [5,6,30]
+  - [-5,-3,15]
+  - [453,562,254586]
+
+mulmyids:
+  - "mulint"
+  - "mulminus"
+  - "mulbigint"
+
+divdatas:
+  - [6,2,3]
+  - [-80,-20,4]
+  - [688,2,344]
+
+divmyids:
+  - "divint"
+  - "divminus"
+  - "divbigint"
