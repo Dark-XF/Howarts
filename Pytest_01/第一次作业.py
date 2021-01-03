@@ -2,7 +2,7 @@ import pytest
 import yaml
 
 def get_datas():
-    with open("./date.yml") as f:
+    with open("date.yml") as f:
          datas = yaml.safe_load(f)
          add_datas = datas["adddatas"]
          add_ids = datas["addmyids"]
@@ -33,10 +33,9 @@ def div_function(a,b):
 def test_add(a,b,expected):
     assert add_function(a,b) == expected
 
-
-@pytest.mark.parametrize("a,b,expected",get_datas()[2],ids=get_datas()[3])
-def test_sub(a,b,expected):
-    assert sub_function(a,b) == expected
+@pytest.mark.parametrize("a,b,expected",get_datas()[6],ids=get_datas()[7])
+def test_div(a,b,expected):
+    assert div_function(a,b) == expected
 
 
 @pytest.mark.parametrize("a,b,expected", get_datas()[4], ids=get_datas()[5])
@@ -44,8 +43,9 @@ def test_mul(a, b, expected):
     assert mul_function(a,b) == expected
 
 
-@pytest.mark.parametrize("a,b,expected",get_datas()[6],ids=get_datas()[7])
-def test_div(a,b,expected):
-    assert div_function(a,b) == expected
+@pytest.mark.parametrize("a,b,expected",get_datas()[2],ids=get_datas()[3])
+def test_sub(a,b,expected):
+    assert sub_function(a,b) == expected
+
 
 

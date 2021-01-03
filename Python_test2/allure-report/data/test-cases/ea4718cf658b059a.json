@@ -1,0 +1,108 @@
+{
+  "uid" : "ea4718cf658b059a",
+  "name" : "test_add[minus]",
+  "fullName" : "Pytest_02#test_add",
+  "historyId" : "e27ff26205cdd09c098ad0df9bf16b91",
+  "time" : {
+    "start" : 1609688165702,
+    "stop" : 1609688165702,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Prefabrication",
+    "time" : {
+      "start" : 1609688165701,
+      "stop" : 1609688165702,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "919e5a586cccec64",
+      "name" : "stdout",
+      "source" : "919e5a586cccec64.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "Prefabrication::0",
+    "time" : {
+      "start" : 1609688165704,
+      "stop" : 1609688165704,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Prefabrication')"
+  }, {
+    "name" : "suite",
+    "value" : "Pytest_02"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OG5IDER"
+  }, {
+    "name" : "thread",
+    "value" : "8004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Pytest_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-1"
+  }, {
+    "name" : "b",
+    "value" : "-2"
+  }, {
+    "name" : "expected",
+    "value" : "-3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('Prefabrication')" ]
+  },
+  "source" : "ea4718cf658b059a.json",
+  "parameterValues" : [ "-1", "-2", "-3" ]
+}

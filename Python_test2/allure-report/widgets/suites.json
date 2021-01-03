@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "2b6ca3a2f5bff61f323dc35abed3304d",
+    "name" : "Pytest_02",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ]
+}
